@@ -17,6 +17,10 @@ This repo is created from the  VS2012 project for HomeSpun v0.32 provided by Bat
 
 http://forums.parallax.com/showthread.php/148260-HomeSpun-Compiler-Open-Source
 
+NOTE: There is no plan for future development on this repo. There is a development repo on Google Code:
+
+http://code.google.com/p/homespun-spin-compiler/
+
 
 Build - Debian
 --------------
