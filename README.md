@@ -30,4 +30,15 @@ HomeSpun will compile on Debian using the Mono tool chain.
 Will produce executables  HomeSpun/bin/Debug/HomeSpun.exe and
 HomeSpun/bin/Debug/HomeSpun.exe
 
+Run with:
+
+$ mono HomeSpun.exe
+  
+Build - Windows
+---------------
+
+No idea. I guess you just hit a button in VS012 somewhere. 
+
+
+
 
