@@ -13,7 +13,7 @@ For further information check the wikispaces page:
 
 http://propeller.wikispaces.com/Homespun+Spin+Compiler
 
-This repo is created from the  VS2012 project for HomeSpun provided by Batang on the Parallax forums:
+This repo is created from the  VS2012 project for HomeSpun v0.32 provided by Batang on the Parallax forums:
 
 http://forums.parallax.com/showthread.php/148260-HomeSpun-Compiler-Open-Source
 
