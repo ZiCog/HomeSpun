@@ -28,7 +28,9 @@ Build - Debian
 HomeSpun will compile on Debian using the Mono tool chain.
 
   $ sudo apt-get install mono-complete
+
   $ cd HomeSpun
+
   $ xbuild HomeSpun.csproj
   
 Will produce executables  HomeSpun/bin/Debug/HomeSpun.exe and
