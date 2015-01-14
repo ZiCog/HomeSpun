@@ -51,8 +51,11 @@ Run on Raspberry Pi !
 HomeSpun.exe runs fine on the Raspi only requiring a couple of mono packages (No need to build it there of course):
 
   $ sudo apt-get install mono-runtime
+  
   $ sudo apt-get install libmono-corlib2.0-cil
+  
   $ mono HomeSpun.exe
+  
   
   
 
