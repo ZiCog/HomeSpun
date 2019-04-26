@@ -1613,6 +1613,7 @@ namespace Homespun
             JmpTarget saveQuitJmpTarget = SymbolTable.quitJmpTarget;
             JmpTarget nextJmpTarget = SymbolTable.nextJmpTarget = new JmpTarget();
             JmpTarget quitJmpTarget = SymbolTable.quitJmpTarget = new JmpTarget();
+	    bool saveInsidePlainRepeat = SymbolTable.insidePlainRepeat;
             int saveCaseNesting = SymbolTable.caseNesting;
             SymbolTable.caseNesting = 0;
 
@@ -1693,6 +1694,7 @@ namespace Homespun
             SymbolTable.caseNesting = saveCaseNesting;
             SymbolTable.nextJmpTarget = saveNextJmpTarget;
             SymbolTable.quitJmpTarget = saveQuitJmpTarget;
+	    SymbolTable.insidePlainRepeat = saveInsidePlainRepeat;
         }
     }
     class RepeatFromToStmt : Stmt
