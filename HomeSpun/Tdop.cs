@@ -2226,7 +2226,7 @@ Options:
 	    CultureInfo.DefaultThreadCurrentCulture = CultureInfo.InvariantCulture; // Fix float<->string conversions
             try
             {
-                Console.WriteLine("Homespun Spin Compiler 0.32 - Batang Build");
+                Console.WriteLine("Homespun Spin Compiler 0.32p1 - Batang Build");
 
                 ArrayList filenameList = new ArrayList();
                 if (args.Length == 0)
