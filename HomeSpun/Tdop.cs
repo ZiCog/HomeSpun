@@ -407,6 +407,8 @@ Precedence	Example Operator
 using System;
 using System.IO;
 using System.Collections;
+using System.Globalization;
+
 
 namespace Homespun
 {
@@ -2221,9 +2223,10 @@ Options:
         }
         static void Main(string[] args)
         {
+	    CultureInfo.DefaultThreadCurrentCulture = CultureInfo.InvariantCulture; // Fix float<->string conversions
             try
             {
-                Console.WriteLine("Homespun Spin Compiler 0.32 - Batang Build");
+                Console.WriteLine("Homespun Spin Compiler 0.32p2 - Batang Build");
 
                 ArrayList filenameList = new ArrayList();
                 if (args.Length == 0)
